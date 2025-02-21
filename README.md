@@ -5,7 +5,7 @@ Este repositório é destinado a armazenar e gerenciar um aplicativo web de deli
 ## Como instalar o projeto no Ubuntu Server
 1. Clone o repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/leonardofreed/lojadobairro.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
@@ -21,6 +21,20 @@ Este repositório é destinado a armazenar e gerenciar um aplicativo web de deli
    ```bash
    npm start
    ```
+
+## Multisite
+- O aplicativo deve ser configurado como um sistema multissite.
+- Para implementar o multisite:
+  - Permita que diferentes sites compartilhem a mesma base de código.
+  - Implemente uma estrutura para gerenciar configurações específicas de cada site.
+  - Adicione suporte para diferentes domínios ou subdomínios.
+
+
+
+
+
+
+
 
 ## Contribuições
 - Sinta-se à vontade para contribuir com melhorias e correções.
